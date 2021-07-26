@@ -35,7 +35,7 @@ Or install it yourself as:
 irb(main) :001:0> require 'open_jp_geocoder'
 => true
 irb(main) :002:0> OpenJpGeocoder.search('東京駅')
-=> "東京都　千代田区　丸の内一丁目"
+=> {:latitude=>43.076111, :longitude=>141.363617}
 ```
 
 ## Development
